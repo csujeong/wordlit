@@ -511,17 +511,17 @@ def main():
 
     with tab1:
         uploaded_file = st.file_uploader("Upload a file", type=["txt", "docx", "pdf"])
-        generate_file_input = st.button("Generate Graph from File")
+        generate_file_input = st.button("Text Graph 생성")
 
     with tab2:
         text_input = st.text_area(
             "Text Input", height=150, placeholder="Paste your text here..."
         )
-        generate_text_input = st.button("Generate Graph from Text")
+        generate_text_input = st.button("Text Graph 생성")
     
     with tab3:
         url_input = st.text_input("Website URL", placeholder="Enter the website URL here...")
-        generate_url_input = st.button("Generate Graph from Website")
+        generate_url_input = st.button("Text Graph 생성")
     
     user_input = None
 
