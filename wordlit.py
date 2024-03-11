@@ -368,15 +368,13 @@ def main():
 
     _author_ = "https://www.linkedin.com/in/sahir-maharaj/"
 
-    st.title("Wordlit.net")
+    st.title("텍스트 지식 그래프")
     st.markdown(
         """
-        This tool uses NLP to generate a knowledge graph from the text you provide.\n
-        Enter any text or upload a file and hit the '**Generate**' button to visualize the connections between entities.
-        
-        All code contributed by [Sahir Maharaj](%s) is licensed under Attribution 4.0 International
-        """
-        % _author_
+이 도구는 NLP를 사용하여 귀하가 제공한 텍스트에서 지식 그래프를 생성합니다.\n
+
+텍스트를 입력하거나 파일을 업로드하고 '**생성**' 버튼을 눌러 엔터티 간의 연결을 시각화합니다.
+
     )
 
     with st.sidebar:
